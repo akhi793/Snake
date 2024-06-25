@@ -1,9 +1,7 @@
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,9 +9,23 @@ body {
 }
 
 h1 {
+    text-align: center;
+}
+
+.game {
+    text-align: center;
+}
+
+.choices {
     margin-bottom: 20px;
 }
 
-canvas {
-    background-color: #000;
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.result {
+    font-size: 24px;
 }
